@@ -1,5 +1,6 @@
 # streamlit
-Streamlit play project.
+Streamlit play project.  Followed the tutorial from here:
+https://www.geeksforgeeks.org/a-beginners-guide-to-streamlit/
 
 Streamlist is neat in that a simple Python script can create a simple web app, no need for model/view/controller, no HTML template files, etc.
 
