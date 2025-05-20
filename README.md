@@ -9,15 +9,16 @@ Not sure if Streamlit can do any Javascript or Ajax, I'm guessing not.
 
 So the sweet spot is simple web apps with a simple, clean style.  The analogy is perhaps Notepad vs Microsoft Word.
 
-To run in PyCharm:
-
-Set up the virtual env:
+To run in Windows CMD shell:
 * python -m venv venv
 * venv\Scripts\activate.bat
 * pip install -r requirements.txt
+* streamlit run tutorial.py (Ctrl-C doesn't always work)
 
-Run the app:
+To run in a Codespace (Linux):
+* python -m venv venv
+* source venv/bin/activate
+* pip install -r requirements.txt
 * streamlit run tutorial.py
 
-Deactivate the venv:
-* deactivate
+
